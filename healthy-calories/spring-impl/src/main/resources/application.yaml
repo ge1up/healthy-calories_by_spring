@@ -1,0 +1,8 @@
+db:
+  url: jdbc:postgresql://localhost:5432/postgres
+  hikari:
+    max-pool-size: 20
+  username: postgres
+  password: sqlpassword
+  driver:
+    classname: org.postgresql.Driver
